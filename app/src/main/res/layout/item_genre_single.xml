@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@+id/clContainer"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="@dimen/space_x16">
+
+    <TextView
+        android:id="@+id/tvCabang"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        style="@style/Heading2.Bold"
+        android:textColor="@android:color/black" />
+
+    <ImageView
+        android:id="@+id/btnNavigate"
+        android:layout_width="@dimen/space_x32"
+        android:layout_height="@dimen/space_x32"
+        android:scaleType="fitXY"
+        android:foregroundGravity="center"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

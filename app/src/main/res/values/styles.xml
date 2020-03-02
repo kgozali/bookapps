@@ -1,0 +1,328 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="actionButtonStyle">@style/MyActionButtonStyle</item>
+        <item name="windowActionBar">false</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/dark_ash</item>
+        <item name="colorAccent">@color/light_ash</item>
+        <item name="actionButtonStyle">@style/MyActionButtonStyle</item>
+        <item name="android:windowBackground">@color/light_ash</item>
+
+    </style>
+
+    <style name="AppTheme.Launcher" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@drawable/launch_screen</item>
+    </style>
+
+    <style name="MyActionButtonStyle" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:padding">@dimen/space_x16</item>
+    </style>
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="Theme.AppCompat.Translucent" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/black54</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation</item>
+    </style>
+
+    <style name="EditTextTheme">
+        <item name="colorAccent">@android:color/white</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColorHint">@android:color/white</item>
+        <item name="colorControlNormal">@android:color/white</item>
+        <item name="colorControlActivated">@android:color/white</item>
+        <item name="colorControlHighlight">@android:color/white</item>
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="android:textSize">@dimen/body</item>
+    </style>
+
+    <style name="StyledEditText">
+        <item name="android:theme">@style/EditTextTheme</item>
+    </style>
+
+    <style name="HintTextInputLayout">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/body</item>
+    </style>
+
+    <style name="Header" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/title1</item>
+        <item name="android:lineSpacingExtra">@dimen/title1_line_height</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <!-- Text Atomic -->
+    <style name="HeadingBig" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/heading_big</item>
+        <item name="android:lineSpacingExtra">@dimen/heading1_line_height</item>
+    </style>
+
+    <style name="HeadingBig.Bold" parent="HeadingBig">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Heading1" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/heading1</item>
+        <item name="android:lineSpacingExtra">@dimen/heading1_line_height</item>
+    </style>
+
+    <style name="Heading1.Medium" parent="Heading1">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Heading1.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Heading1.Light" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/heading1</item>
+        <item name="android:lineSpacingExtra">@dimen/heading1_line_height</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="Heading2" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/heading2</item>
+        <item name="android:lineSpacingExtra">@dimen/heading2_line_height</item>
+    </style>
+
+    <style name="Heading2.Bold" parent="Heading2">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Heading2.Medium" parent="Heading2">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Title1" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/title1</item>
+        <item name="android:lineSpacingExtra">@dimen/title1_line_height</item>
+    </style>
+
+    <style name="Title1.Medium" parent="Title1">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Title1.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Title2" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/title2</item>
+        <item name="android:lineSpacingExtra">@dimen/title2_line_height</item>
+    </style>
+
+    <style name="Title2.Bold" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/title2</item>
+        <item name="android:lineSpacingExtra">@dimen/title2_line_height</item>
+    </style>
+
+    <style name="Title2.Medium" parent="Title2">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Body" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/body</item>
+        <item name="android:lineSpacingExtra">@dimen/body_line_height</item>
+    </style>
+
+    <style name="Body.Red" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/body</item>
+        <item name="android:lineSpacingExtra">@dimen/body_line_height</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="Body.Red.Bold" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/body</item>
+        <item name="android:lineSpacingExtra">@dimen/body_line_height</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Body.Medium" parent="Body">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Body.Medium.Black" parent="Body.Medium">
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="Body.Bold" parent="Body">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Caption" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/caption</item>
+        <item name="android:lineSpacingExtra">@dimen/caption_line_height</item>
+    </style>
+
+
+    <style name="Caption.NonLineSpacing" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/caption</item>
+    </style>
+
+    <style name="Caption.Medium" parent="Caption">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Caption.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- AllCaps is different with Uppercase style. Uppercase have letter spacing while AllCaps does not -->
+    <style name="Caption.AllCaps" parent="Caption">
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="Tiny" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/tiny</item>
+        <item name="android:lineSpacingExtra">@dimen/tiny_line_height</item>
+    </style>
+
+    <style name="Tiny.Bold" parent="Tiny">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Tiny.Uppercase" parent="Tiny">
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="Tiny.Uppercase.Medium" parent="Tiny.Uppercase">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Tiny.Uppercase.Bold" parent="Tiny.Uppercase">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextAppearance.EditTextBox" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/edit_text_box_size</item>
+        <item name="android:lineSpacingExtra">@dimen/edit_text_box_line_height</item>
+    </style>
+
+    <style name="TextTinyButton" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">10sp</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <style name="RobotoMedium">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+    <!-- Button -->
+    <style name="ButtonStyleExtraSmall" parent="Widget.AppCompat.Button.Borderless">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/button_text_size_extra_small</item>
+        <item name="android:minHeight">28dp</item>
+        <item name="android:maxHeight">28dp</item>
+        <item name="android:minWidth">48dp</item>
+    </style>
+
+    <style name="ButtonStyleXSmall" parent="Widget.AppCompat.Button.Borderless">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/button_text_size_extra_small</item>
+        <item name="android:minHeight">28dp</item>
+        <item name="android:maxHeight">28dp</item>
+        <item name="android:minWidth">48dp</item>
+        <item name="android:lineSpacingExtra">@dimen/button_text_size_xsmall_line_height</item>
+    </style>
+
+    <style name="ButtonStyleSmall" parent="Widget.AppCompat.Button.Borderless">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center</item>
+        <item name="android:minHeight">36dp</item>
+        <item name="android:maxHeight">36dp</item>
+        <item name="android:minWidth">72dp</item>
+        <item name="android:textSize">@dimen/button_text_size_small</item>
+        <item name="android:lineSpacingExtra">@dimen/button_text_size_small_line_height</item>
+    </style>
+
+    <style name="ButtonStyleXSmall.Light" parent="ButtonStyleXSmall">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="ButtonStyleXSmall.Dark" parent="ButtonStyleXSmall">
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="ButtonStyleSmall.Light" parent="ButtonStyleSmall">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="ButtonStyleSmall.Dark" parent="ButtonStyleSmall">
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="ButtonStyleSmall.Black" parent="ButtonStyleSmall">
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="ButtonStyleExtraSmall.Dark" parent="ButtonStyleExtraSmall">
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="ButtonStyle" parent="Widget.AppCompat.Button.Borderless">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center</item>
+        <item name="android:minHeight">44dp</item>
+        <item name="android:maxHeight">44dp</item>
+        <item name="android:minWidth">88dp</item>
+        <item name="android:textSize">@dimen/button_text_size</item>
+        <item name="android:lineSpacingExtra">@dimen/button_text_size_line_height</item>
+    </style>
+
+    <style name="ButtonStyleLight" parent="ButtonStyle">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="ButtonStyleDark" parent="ButtonStyle">
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <!--
+        Cause alchemy tab doesn't support 2 lines of the title yet
+        Layout fragment_serbu_seru_product_main.xml using partial implementation of alchemy
+        by using the TabView which support rounded tab indicator
+        Please remove this style if TabsAV already support 2 lines
+    -->
+
+    <style name="TabLayoutDefault" parent="Widget.Design.TabLayout">
+        <item name="tabMode">fixed</item>
+        <item name="tabSelectedTextColor">@android:color/white</item>
+        <item name="tabTextColor">@color/dark_ash</item>
+        <item name="tabTextAppearance">@style/Body.Medium</item>
+        <item name="tabBackground">@color/colorPrimary</item>
+        <item name="tabIndicatorColor">@android:color/white</item>
+        <item name="tabGravity">fill</item>
+        <item name="tabIndicatorHeight">2dp</item>
+        <item name="tabMaxWidth">500dp</item>
+        <item name="tabPaddingBottom">@dimen/space_x8</item>
+        <item name="tabPaddingTop">@dimen/space_x8</item>
+    </style>
+
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="snackbar_success_color">#1DC53F</color>
+    <color name="snackbar_fail_color">#FF746A</color>
+    <color name="snackbar_success_action_button_color">#D81B60</color>
+
+    <color name="light_ash">#DDDDDD</color>
+    <color name="ash">#BBBBBB</color>
+    <color name="dark_ash">#999999</color>
+
+    <color name="light_sand">#FAFAFA</color>
+    <color name="sand">#F5F5F5</color>
+    <color name="dark_sand">#EEEEEE</color>
+
+    <color name="black12">#1d000000</color>
+    <color name="black27">#45000000</color>
+    <color name="black38">#64000000</color>
+    <color name="black54">#89000000</color>
+    <color name="black75">#bf000000</color>
+    <color name="black87">#dc000000</color>
+    <color name="tinting_color">#6F000000</color>
+
+    <color name="transparent">#00000000</color>
+</resources>

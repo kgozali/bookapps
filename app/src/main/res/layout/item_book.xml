@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/llContainer"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="@dimen/space_x16"
+    android:paddingLeft="@dimen/space_x16"
+    android:paddingRight="@dimen/space_x16">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_white_border_darksand"
+        android:orientation="vertical"
+        android:padding="@dimen/space_x16">
+
+        <ImageView
+            android:id="@+id/ivMain"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:paddingStart="1dp"
+            android:paddingEnd="1dp"
+            android:paddingTop="1dp"
+            android:scaleType="centerCrop"/>
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:layout_marginTop="@dimen/space_x4"
+            android:maxLines="1"
+            style="@style/Body.Bold" />
+
+        <TextView
+            android:id="@+id/tvCondition"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:layout_marginTop="@dimen/space_x4"
+            android:maxLines="1"
+            style="@style/Body.Bold" />
+
+        <TextView
+            android:id="@+id/tvRating"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:layout_marginTop="@dimen/space_x4"
+            android:maxLines="1"
+            style="@style/Body.Bold" />
+
+        <TextView
+            android:id="@+id/tvViewCount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:layout_marginTop="@dimen/space_x4"
+            android:maxLines="1"
+            style="@style/Body.Bold" />
+
+    </LinearLayout>
+
+</LinearLayout>

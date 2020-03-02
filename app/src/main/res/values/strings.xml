@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Sample Test Project</string>
+
+    <string name="title_book">Book</string>
+
+    <string name="follower_text">Follower %1$s</string>
+    <string name="rating_text">Rating %1$s</string>
+
+    <string name="author_detail">Author Detail</string>
+</resources>
